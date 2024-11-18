@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EWS Positive Supply — 2007 BMW X3 3.0si (E83) L6-3.0L (N52K) Service Manual | Operation CHARM</title>
+    <meta name='description' content="Detailed repair manual for the 2007 BMW X3 3.0si (E83) L6-3.0L (N52K).">
+    <style>
+      .li-folder {
+	  list-style-image: url('/icons/folder.svg');
+      }
+      .li-folder.li-folder-open {
+	  list-style-image: url('/icons/folder-open.svg');
+      }
+    </style>
+    <link rel='stylesheet' href="../../../../../style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  </head>
+  <body>
+    <div class='theme-colors header'>
+      <div class='branding'><b>Operation CHARM</b>: Car repair manuals for everyone.</div>
+<div class=breadcrumbs><a class='breadcrumb-part' href="../../../../../">Home</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../BMW/">BMW</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../BMW/2007/">2007</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../index.html">X3 3.0si (E83) L6-3.0L (N52K)</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../Repair%2520and%2520Diagnosis/index.html">Repair and Diagnosis</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../Repair%2520and%2520Diagnosis/index.html#Accessories%20and%20Optional%20Equipment/">Accessories and Optional Equipment</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../Repair%2520and%2520Diagnosis/index.html#Accessories%20and%20Optional%20Equipment/Antitheft%20and%20Alarm%20Systems/">Antitheft and Alarm Systems</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../Repair%2520and%2520Diagnosis/index.html#Accessories%20and%20Optional%20Equipment/Antitheft%20and%20Alarm%20Systems/Testing%20and%20Inspection/">Testing and Inspection</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../../../../../Repair%2520and%2520Diagnosis/Accessories%2520and%2520Optional%2520Equipment/Antitheft%2520and%2520Alarm%2520Systems/Testing%2520and%2520Inspection/EWS%2520Positive%2520Supply/index.html">EWS Positive Supply</a></div></div>
+<div class='main'>
+<h1>EWS Positive Supply</h1> <br><br><b>EWS Positive Supply</b><br><br><b>Explanation</b><br>For safety reasons, the EWS control module is supplied redundantly with power via terminal 30 and terminal R.<br><br>Failure of terminal 30 or terminal R does not cause a noticeable malfunction while starting the engine. Diagnosis with the EWS control module is also still possible.<br><br><b>Terminal 30 defective</b><br>If terminal 30 fails, diagnosis with the EWS control module is then only possible with terminal R switched on (ignition lock in position 1 or 2).<br><br>In addition, failure of terminal 30 results in failure of the radio <a>remote control</a>. The reason for this lies in the following function sequence:<br><br>When terminal 30 is free of defects the EWS control module detects when the key is removed from the ignition lock after switching off terminal R. This status is sent via the K-bus to the central body electronics control module (ZKE). The control module executes the button commands of the key-chain transmitter only when the ignition key is not inserted in the ignition lock.<br><br>When terminal 30 is defective the EWS control module can no longer detect the key status after switching off terminal R. The key status "key inserted in ignition lock" therefore remains stored in the central body electronics control module. Consequently, no key commands are executed.<br><br><b>Troubleshooting</b><br>The power supply of the EWS is checked using test module B6135_00003 supply, K bus.<br><br>The status of terminal R can be checked using the diagnostic function 'Read status'. To check terminal 30, the data communication between the tester and EWS control module is monitored with terminal R switched off. If communication with the EWS control module is no longer possible with terminal R switched off, this indicates a fault in the area of terminal 30 (fuse or cable).<br></div>
+<div class="theme-colors footer">
+  <i>pro multis</i> · <a href="/about.html">About Operation CHARM</a>
+</div>
+<script>const baseUrl="/"</script>
+<script src="../../../../../script.js"></script>
+</body>
+</html>
